@@ -1,0 +1,458 @@
+body{
+    background-color: white;
+
+}
+header{
+    text-align: center;
+    font-family: Montserrat, serif;
+    font-size: 22px;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.28;
+    padding-bottom: 5%;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+} 
+/* #AboutRegisterTestimonialsContact{
+    position: absolute; left: 50%;
+    width: 656px;
+    height: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    flex-direction: row;
+
+} */
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #127e7e;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover ::after{
+    width: 100%;
+}
+
+.content{
+    width: 50%;
+    position: absolute;
+    right: 60%;
+    top: 20%;
+    padding-top: 30%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: rgb(14, 14, 15);
+}
+
+.content h2{
+    font-size: 20px;
+    margin-top: 40px;
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Source Sans Pro", serif;
+    letter-spacing: 0px;
+    text-decoration: none;
+    padding: 0px;
+    padding-top: 15%;
+    width: 75%;
+    height: -100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0%;
+    position: relative;
+    left: 20%;
+}
+
+.content p{
+    margin: 2px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: rgb(122, 122, 122);
+    font-family: "Source Sans Pro", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    line-height: 1.44;
+    width: 458px;
+    height: -100%;
+    padding: 0px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    position: relative;
+    left: 15%;
+    bottom: 10%;
+    margin-top: -2%;
+}
+.nav{
+    color: rgb(68, 68, 68);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Source Sans Pro", serif;
+    letter-spacing: 0px;
+    text-decoration: none;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+}
+#img1{
+    width: 30%;
+    position: relative;
+    left: 60%;
+    background-color: aliceblue;
+    padding: 0%;
+    margin-top: -5%;
+}
+
+.registerlearn{
+    margin-top: -4%;
+}
+button{
+    width: 200px;
+    padding-top: 0%;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #101010;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position:relative;
+    left: 5%;
+    bottom: 5%;
+    overflow: hidden;
+}
+span{
+    background: #76a2df;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border:none;
+}
+#register{
+    color: white;
+    font-family: "Source Sans Pro", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 148px;
+    height: 42px;
+    padding: 0px 10px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    display: table-cell;
+    word-break: break-word;
+   border-radius: 25px;
+   background-color: black;
+}
+#Learnmore{
+    color: black;
+    font-family: "Source Sans Pro", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 148px;
+    height: 42px;
+    padding: 0px 10px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    display: table-cell;
+    word-break: break-word;
+   border-radius: 25px;
+   background-color: whitesmoke;
+}
+.h2again{
+    color: rgb(68, 68, 68);
+    font-family: "Source Sans 3", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    line-height: 1.28;
+    width: 480px;
+    height: 124px;
+    padding: 0px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    position: relative;
+    left: 40%;
+}
+.parent{
+    display:flex;
+    width: 33%;
+    margin-top: -5%;
+}
+.stepone{
+    color: rgb(96, 96, 96);
+    font-family: "Source Sans Pro", serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre;
+    display: table-cell;
+    position: absolute;
+    left: 23%;
+    padding-top: 2%;
+}
+#icon1{
+    position:absolute;
+    left: 25%;
+}
+
+.registerlogin{
+    color: rgb(96, 96, 96);
+    font-family: "Source Sans Pro", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    line-height: 1.42;
+    width: 199px;
+    height: 168px;
+    padding: 0px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    position: absolute;
+    left: 20%;
+    padding-top: 5%;
+
+}
+.steptwo{
+    color: rgb(96, 96, 96);
+    font-family: "Source Sans Pro", serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre;
+    display: table-cell;
+    position: absolute;
+    left: 48%;
+    padding-top: 2%;
+}
+#icon2{
+    position: absolute;
+    left: 50%;
+
+}
+
+.searchbarservice{
+    color: rgb(96, 96, 96);
+    font-family: "Source Sans Pro", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    line-height: 1.42;
+    width: 199px;
+    height: 168px;
+    padding: 0px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    position: absolute;
+    left: 45%;
+    padding-top: 5%;
+}
+.stepthree{
+    color: rgb(96, 96, 96);
+    font-family: "Source Sans Pro", serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: auto;
+    padding: 0px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre;
+    display: table-cell;
+    position: absolute;
+    left: 72%;
+    padding-top: 2%;
+}
+#icon3{
+    position: absolute;
+    left: 75%;
+
+
+}
+
+.contactprof{
+    color: rgb(96, 96, 96);
+    font-family: "Source Sans Pro", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    line-height: 1.42;
+    width: 199px;
+    height: 168px;
+    padding: 0px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    position: absolute;
+    left: 70%;
+    padding-top: 5%;
+}
+#img5{
+    width: 20%;
+    position: relative;
+    left: 30%;
+    background-color: rgb(192, 192, 192, 0.01);
+    padding-top: 10%;
+}
+#img6{
+    width: 15%;
+    position: relative;
+    left: 32%;
+    background-color: rgb(192, 192, 192, 0.01);
+    padding-top: 8%;
+}
+.footer{
+    padding: 40px 0;
+    background-color: white;
+   
+}
+footer{
+    color: rgb(170, 170, 170);
+    font-family: "Source Sans Pro", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    line-height: 1.6;
+    width: 372px;
+    height: 67px;
+    padding: 0px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    position: absolute;
+    left: 35%;
+    padding-top: 20%;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px ;
+    color: #aaa;
+}
